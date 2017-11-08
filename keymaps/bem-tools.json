@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-b": "bem-tools:toggle"
+    "ctrl-alt-b": "bem-tools:run"
   }
 }

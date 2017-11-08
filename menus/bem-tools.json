@@ -6,19 +6,19 @@
         "submenu": [
           {
             "label": "Convert to BEM HTML/SCSS",
-            "command": "bem-tools:toggle"
+            "command": "bem-tools:run"
           },
           {
             "label": "Convert to SCSS",
-            "command": "bem-tools:to_scss"
+            "command": "bem-tools:to-scss"
           },
           {
             "label": "Convert to CSS",
-            "command": "bem-tools:to_css"
+            "command": "bem-tools:to-css"
           },
           {
             "label": "Convert to BEM JSON",
-            "command": "bem-tools:to_json"
+            "command": "bem-tools:to-json"
           }
         ]
       }
@@ -33,19 +33,19 @@
           "submenu": [
             {
               "label": "Convert to BEM HTML/SCSS",
-              "command": "bem-tools:toggle"
+              "command": "bem-tools:run"
             },
             {
               "label": "Convert to SCSS",
-              "command": "bem-tools:to_scss"
+              "command": "bem-tools:to-scss"
             },
             {
               "label": "Convert to CSS",
-              "command": "bem-tools:to_css"
+              "command": "bem-tools:to-css"
             },
             {
               "label": "Convert to BEM JSON",
-              "command": "bem-tools:to_json"
+              "command": "bem-tools:to-json"
             }
           ]
         }

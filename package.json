@@ -13,10 +13,10 @@
   ],
   "activationCommands": {
     "atom-workspace": [
-      "bem-tools:toggle",
-      "bem-tools:to_json",
-      "bem-tools:to_css",
-      "bem-tools:to_scss"
+      "bem-tools:run",
+      "bem-tools:to-json",
+      "bem-tools:to-css",
+      "bem-tools:to-scss"
     ]
   },
   "repository": "https://github.com/pvoznyuk/atom-bem-tools",
