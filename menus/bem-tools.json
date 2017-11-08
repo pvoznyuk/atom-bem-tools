@@ -1,0 +1,55 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Bem Tools",
+        "submenu": [
+          {
+            "label": "Convert to BEM HTML/SCSS",
+            "command": "bem-tools:toggle"
+          },
+          {
+            "label": "Convert to SCSS",
+            "command": "bem-tools:to_scss"
+          },
+          {
+            "label": "Convert to CSS",
+            "command": "bem-tools:to_css"
+          },
+          {
+            "label": "Convert to BEM JSON",
+            "command": "bem-tools:to_json"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Bem Tools",
+          "submenu": [
+            {
+              "label": "Convert to BEM HTML/SCSS",
+              "command": "bem-tools:toggle"
+            },
+            {
+              "label": "Convert to SCSS",
+              "command": "bem-tools:to_scss"
+            },
+            {
+              "label": "Convert to CSS",
+              "command": "bem-tools:to_css"
+            },
+            {
+              "label": "Convert to BEM JSON",
+              "command": "bem-tools:to_json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
