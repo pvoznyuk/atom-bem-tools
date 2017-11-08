@@ -28,29 +28,16 @@ All the commands are also available with context menu.
 
 ## Some pug-like pseudocode cases
 
-<div>
-  <div style="display: inline-block; vertical-align: top;  width: 46%; margin-right: 2%;">
-    Pseudocode
-  </div>
-  <div style="display: inline-block; vertical-align: top; width: 46%; margin-right: 2%;">
-    HTML
-  </div>
-</div>
-
-<div>
-  <div style="display: inline-block; vertical-align: top;  width: 46%; margin-right: 2%;">
-<hr/>  
-<pre>
+Pseudocode
+```
 spaceship
   cabin
     span.pilot--awake
     span.pilot--copilot--asleep
   cargo
-</pre>
-  </div>
-  <div style="display: inline-block; vertical-align: top; width: 46%; margin-right: 2%;">
-<hr/>  
-<pre lang="html">
+```
+Turns to HTML
+```html
 &lt;div class=&quot;spaceship&quot;&gt;
   &lt;div class=&quot;spaceship__cabin&quot;&gt;
     &lt;span class=&quot;spaceship__pilot spaceship__pilot--awake&quot;&gt;&lt;/span&gt;
@@ -58,27 +45,20 @@ spaceship
   &lt;/div&gt;
   &lt;div class=&quot;spaceship__cargo&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;  
-</pre>
-  </div>
-</div>
+```
 
-<div>
-  <div style="display: inline-block; vertical-align: top;  width: 46%; margin-right: 2%;">
-<hr/>  
-<pre>
+<hr/>
+
+Pseudocode
+```
 spaceship
   a.section*3 CONTENT
-</pre>
-  </div>
-  <div style="display: inline-block; vertical-align: top; width: 46%; margin-right: 2%;">
-<hr/>  
-<pre lang="html">
+```
+Turns to HTML
+```html
 &lt;div class=&quot;spaceship&quot;&gt;
   &lt;a class=&quot;spaceship__section&quot; href=&quot;#&quot;&gt;CONTENT&lt;/a&gt;
   &lt;a class=&quot;spaceship__section&quot; href=&quot;#&quot;&gt;CONTENT&lt;/a&gt;
   &lt;a class=&quot;spaceship__section&quot; href=&quot;#&quot;&gt;CONTENT&lt;/a&gt;
 &lt;/div&gt; 
-</pre>
-    
-  </div>
-</div>
+```
