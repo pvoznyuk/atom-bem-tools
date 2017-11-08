@@ -1,3 +1,3 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 0.1.8 - HTML Serialier is improved
+* added `src`, `href`, `alt` attribute for corresponding tags 
+* added README

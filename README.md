@@ -1,5 +1,14 @@
-# bem-tools package
+# BEM Tools
 
-A short description of your package.
+Some handy tools to make developing BEM HTML code in Atom even more faster.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Installing
+
+`apm install bem-tools`
+
+### Show Usages
+Default shortcut: `ctrl+alt+b`.
+All the commands are also available with context menu.
+
+#### HTML to CSS/SCSS
+![HTMl to CSS](https://raw.githubusercontent.com/pvoznyuk/atom-bem-tools/master/demo/html-to-css.gif)
