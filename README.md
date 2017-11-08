@@ -38,13 +38,13 @@ spaceship
 ```
 Turns to HTML
 ```html
-&lt;div class=&quot;spaceship&quot;&gt;
-  &lt;div class=&quot;spaceship__cabin&quot;&gt;
-    &lt;span class=&quot;spaceship__pilot spaceship__pilot--awake&quot;&gt;&lt;/span&gt;
-    &lt;span class=&quot;spaceship__pilot spaceship__pilot--copilot spaceship__pilot--asleep&quot;&gt;&lt;/span&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;spaceship__cargo&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;  
+<div class="spaceship">
+  <div class="spaceship__cabin">
+    <span class="spaceship__pilot spaceship__pilot--awake"></span>
+    <span class="spaceship__pilot spaceship__pilot--copilot spaceship__pilot--asleep"></span>
+  </div>
+  <div class="spaceship__cargo"></div>
+</div>  
 ```
 
 <hr/>
@@ -56,9 +56,9 @@ spaceship
 ```
 Turns to HTML
 ```html
-&lt;div class=&quot;spaceship&quot;&gt;
-  &lt;a class=&quot;spaceship__section&quot; href=&quot;#&quot;&gt;CONTENT&lt;/a&gt;
-  &lt;a class=&quot;spaceship__section&quot; href=&quot;#&quot;&gt;CONTENT&lt;/a&gt;
-  &lt;a class=&quot;spaceship__section&quot; href=&quot;#&quot;&gt;CONTENT&lt;/a&gt;
-&lt;/div&gt; 
+<div class="spaceship">
+  <a class="spaceship__section" href="#">CONTENT</a>
+  <a class="spaceship__section" href="#">CONTENT</a>
+  <a class="spaceship__section" href="#">CONTENT</a>
+</div> 
 ```
