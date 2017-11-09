@@ -1,4 +1,4 @@
-# BEM Tools
+# BEM Tools for Atom
 
 Some handy tools to make developing BEM HTML code in Atom even more faster.
 It can convert BEM JSON, HTML, CSS/SCSS and some Pug-like code into each other.
