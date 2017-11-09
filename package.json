@@ -1,7 +1,7 @@
 {
   "name": "bem-tools",
   "main": "./lib/bem-tools",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Create BEM HTML, CSS and JSON faster",
   "keywords": [
     "bem",
@@ -18,6 +18,22 @@
       "bem-tools:to-css",
       "bem-tools:to-scss"
     ]
+  },
+  "configSchema": {
+    "modPrefix": {
+      "title": "Mod prefix",
+      "description": "Usually it is -- or _",
+      "type": "string",
+      "default": "--",
+      "order": 1
+    },
+    "scssTabs": {
+      "title": "Tab size for SCSS nested classes",
+      "description": "Default value is two spaces. You can use `\\t` for tabs.",
+      "type": "string",
+      "default": "  ",
+      "order": 2
+    }
   },
   "repository": "https://github.com/pvoznyuk/atom-bem-tools",
   "license": "MIT",
